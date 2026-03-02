@@ -11,3 +11,18 @@ void input()
     cin >> lebar;
 }
 
+int luaspersegi()
+{
+    return panjang * lebar;
+}
+
+void output()
+{
+    cout << "hasilnya : " <<luaspersegi() << endl;
+}
+
+int main()
+{
+    input();
+    output();
+}
